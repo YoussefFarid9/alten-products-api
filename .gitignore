@@ -1,0 +1,27 @@
+HELP.md
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Maven / Java
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+.mvn/wrapper/MavenWrapperDownloader.java
+dependency-reduced-pom.xml
+
+# IDEs
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+bin/
+
+# Logs / OS
+*.log
+.DS_Store
+Thumbs.db
+
+# H2 file DB
+.data/
